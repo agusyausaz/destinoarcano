@@ -33,21 +33,19 @@
 
     <main>
 
-        <section class="contacto-seccion">
+        <section class="contacto-container">
             <h2>Contacto</h2>
-            <p>¿Tienes alguna pregunta o necesitas ayuda? ¡Envíanos un mensaje!</p>
-            
-            <form action="https://formspree.io/f/{tu_formspree}" method="POST" class="formulario-contacto">
+            <p>¿Tenés alguna duda? Envianos un mensaje y te respondemos en el día!</p>
+            <form class="contacto-form">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
-                
-                <label for="email">Correo Electrónico:</label>
+                <label for="email">Correo electrónico:</label>
                 <input type="email" id="email" name="email" required>
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                
-                <button type="submit">Enviar Mensaje</button>
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+                <label for="mensaje">Mensaje: </label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                <button type="submit" class="botones">Enviar</button>
             </form>
         </section>
 

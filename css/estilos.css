@@ -160,7 +160,7 @@ nav ul li a:hover {
     transform: translateY(-5px);
 }
 
-.ver-mas-btn {
+.botones {
     font-size: 1.5rem;
     color: white;
     background-color: #333;
@@ -170,7 +170,7 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.ver-mas-btn:hover {
+.botones:hover {
     background-color: #EABE3F;
 }
 
@@ -213,4 +213,45 @@ footer {
 
 
 /* contacto */
+
+.contacto-container{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.contacto-container h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contacto-container p{
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contacto-form label{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.contacto-form input, .contacto-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: none;
+}
+
+.contacto-form button{
+    display: block;
+    margin: auto;
+}
 
